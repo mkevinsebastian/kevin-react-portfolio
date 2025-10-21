@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className="mb-16">
       <img 
-        src="/profile.jpg" 
+        src="profile.jpg" 
         alt="Profile Picture" 
         className="w-44 h-44 rounded-full mx-auto my-5" 
       />
