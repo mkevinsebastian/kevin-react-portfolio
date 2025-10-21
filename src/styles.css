@@ -1,0 +1,76 @@
+/* 1. Import Tailwind. This now includes all base styles. */
+@import "tailwindcss";
+
+/* 2. This is your NEW config. We define your custom colors here. */
+@theme {
+    --color-navy: #0f172a;
+    --color-slate-dark: #1e293b;
+    --color-brand-yellow: #ffcc00;
+}
+
+/* 3. Add your base styles (we use the new names) */
+@layer base {
+    body {
+        @apply bg-navy text-white font-sans text-center;
+    }
+
+    html {
+        /* This enables smooth scrolling for anchor links */
+        scroll-behavior: smooth;
+    }
+}
+
+/* 4. Add back essential custom classes */
+
+/* This keeps your particles background working */
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-navy);
+    z-index: -1;
+}
+
+/* This stops body scrolling when the mobile menu is open */
+body.no-scroll {
+    overflow: hidden;
+}
+
+/* Custom hover colors for social icons (cleaner than in-JSX) */
+.social-btn.fa-envelope:hover {
+    @apply text-brand-yellow;
+}
+
+.social-btn.fa-instagram:hover {
+    @apply text-[#E1306C];
+}
+
+.social-btn.fa-whatsapp:hover {
+    @apply text-[#25D366];
+}
+
+.social-btn.fa-line:hover {
+    @apply text-[#00C300];
+}
+
+.social-btn.fa-linkedin:hover {
+    @apply text-[#0077b5];
+}
+
+.social-btn.fa-github:hover {
+    @apply text-white;
+}
+
+/* Animation classes for FadeInOnScroll */
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
