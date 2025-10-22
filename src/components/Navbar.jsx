@@ -80,6 +80,15 @@ function Navbar() {
               Certs
             </a>
           </li>
+
+          {/* --- INI TAB BARU YANG DITAMBAHKAN --- */}
+          <li className="h-20 flex items-center">
+            <a href="#recommendations" className="py-2 px-4 rounded hover:text-brand-yellow transition-all active:scale-95" onClick={closeMobileMenu}>
+              Recommendations
+            </a>
+          </li>
+          {/* --- AKHIR TAB BARU --- */}
+
           <li className="h-20 flex items-center">
             <a href="#courses" className="py-2 px-4 rounded hover:text-brand-yellow transition-all active:scale-95" onClick={closeMobileMenu}>
               Courses
