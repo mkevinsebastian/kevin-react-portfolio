@@ -1,65 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/jpeg" href="/profile.jpg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Basic SEO -->
+  <link rel="icon" type="image/jpeg" href="/profile.jpg" />
+  <meta name="theme-color" content="#0f172a" />
+
   <title>Kevin Sebastian | Software Developer Portfolio</title>
   <meta name="description"
-    content="Portfolio Kevin Sebastian - Software Developer yang berfokus pada web development (React, Node.js, SQL) dengan pengalaman membangun aplikasi full-stack, internal tools, dan sistem enterprise." />
+    content="Portfolio Kevin Sebastian - Software Developer berpengalaman membangun aplikasi full-stack, internal tools, dan sistem enterprise menggunakan React, Node.js, dan SQL." />
   <meta name="keywords"
-    content="Kevin Sebastian, Kevin Sebastian Portfolio, Software Developer, Web Developer, React, JavaScript, Indonesia" />
+    content="Kevin Sebastian, Software Developer, Web Developer, React Developer, Fullstack Developer Indonesia, Portfolio Software Engineer" />
   <meta name="author" content="Kevin Sebastian" />
   <meta name="robots" content="index, follow" />
 
-  <!-- Canonical URL (ganti sesuai domain kamu) -->
   <link rel="canonical" href="https://mkevinsebastian.github.io/kevin-react-portfolio/" />
 
-  <!-- Open Graph (untuk WhatsApp, LinkedIn, dll.) -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Kevin Sebastian | Software Developer" />
-  <meta property="og:description"
-    content="Portfolio pribadi Kevin Sebastian berisi project, pengalaman, skill, dan sertifikasi di bidang software & web development." />
   <meta property="og:url" content="https://mkevinsebastian.github.io/kevin-react-portfolio/" />
+  <meta property="og:title" content="Kevin Sebastian | Software Developer Portfolio" />
+  <meta property="og:description"
+    content="Eksplorasi project, pengalaman, dan keahlian teknis Kevin Sebastian di bidang pengembangan perangkat lunak." />
   <meta property="og:image" content="https://mkevinsebastian.github.io/kevin-react-portfolio/profile-og.jpg" />
-  <meta property="og:site_name" content="Kevin Sebastian Portfolio" />
 
-  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Kevin Sebastian | Software Developer" />
+  <meta name="twitter:url" content="https://mkevinsebastian.github.io/kevin-react-portfolio/" />
+  <meta name="twitter:title" content="Kevin Sebastian | Software Developer Portfolio" />
   <meta name="twitter:description"
-    content="Portfolio pribadi Kevin Sebastian berisi project, pengalaman, skill, dan sertifikasi di bidang software & web development." />
+    content="Portfolio pribadi berisi project dan sertifikasi di bidang software & web development." />
   <meta name="twitter:image" content="https://mkevinsebastian.github.io/kevin-react-portfolio/profile-og.jpg" />
 
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Kevin Sebastian",
-      "url": "https://mkevinsebastian.github.io/kevin-react-portfolio/",
-      "image": "https://mkevinsebastian.github.io/kevin-react-portfolio/profile-og.jpg",
-      "jobTitle": "Software Developer",
-      "sameAs": [
-        "https://www.linkedin.com/in/kevin-sebastian-805503216/",
-        "https://github.com/mkevinsebastian"
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://mkevinsebastian.github.io/kevin-react-portfolio/#person",
+          "name": "Kevin Sebastian",
+          "url": "https://mkevinsebastian.github.io/kevin-react-portfolio/",
+          "image": "https://mkevinsebastian.github.io/kevin-react-portfolio/profile-og.jpg",
+          "jobTitle": "Software Developer",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevin-sebastian-805503216/",
+            "https://github.com/mkevinsebastian"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://mkevinsebastian.github.io/kevin-react-portfolio/#website",
+          "url": "https://mkevinsebastian.github.io/kevin-react-portfolio/",
+          "name": "Kevin Sebastian Portfolio",
+          "publisher": { "@id": "https://mkevinsebastian.github.io/kevin-react-portfolio/#person" }
+        }
       ]
     }
   </script>
 
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Kevin Sebastian Portfolio",
-      "url": "https://mkevinsebastian.github.io/kevin-react-portfolio/",
-      "author": {
-        "@type": "Person",
-        "name": "Kevin Sebastian"
-      }
-    }
-  </script>
-
-  <!-- External CSS / JS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 </head>
+
+<body class="bg-[#0f172a]">
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
