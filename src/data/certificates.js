@@ -1,5 +1,8 @@
 // Image paths are from the 'public' folder
 export const certificates = [
+  { imgSrc: "Oracle AI Vector Search Certified Professional_page-0001.jpg", alt: "OCI", title: "Oracle AI Vector Search Certified Professional", date: "October 2025" },
+  { imgSrc: "Oracle Redwood Application 2025 Certified Developer Associate_page-0001.jpg", alt: "OCI", title: "Oracle Redwood Application 2025 Certified Developer Associate", date: "October 2025" },
+  { imgSrc: "Oracle Autonomous Database Cloud 2025 Certified Professional_page-0001.jpg", alt: "OCI", title: "Oracle Autonomous Database Cloud 2025 Certified Professional", date: "October 2025" },
   { imgSrc: "Oracle DatabaseAWS Certified Architect Professional_page-0001.jpg", alt: "OCI", title: "Oracle DatabaseAWS Certified Architect Professional", date: "October 2025" },
   { imgSrc: "Oracle Cloud Database Services 2025 Certified Professional_page-0001.jpg", alt: "OCI", title: "Oracle Cloud Database Services 2025 Certified Professional", date: "October 2025" },
   { imgSrc: "OCI AI Generative_page-0001.jpg", alt: "OCI", title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional", date: "October 2025" },

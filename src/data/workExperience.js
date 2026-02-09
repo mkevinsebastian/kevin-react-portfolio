@@ -3,7 +3,7 @@ export const workExperience = [
     company: "PT InfraCom Technology",
     dates: "2025 - present",
     role: "Application Developer",
-    description: "Developed end-to-end applications using Mendix, ReactJS/NextJS (front-end), and FastAPI, including API integrations and UI/UX | Continuously updated on latest Software trends like Mendix, n&n, and Regula | PIC for ICT Web Revamp",
+    description: "Developed end-to-end applications using Mendix, ReactJS/NextJS (front-end), Astro, and FastAPI/Golang, including API integrations and UI/UX | Continuously updated on latest Software trends like Mendix, n&n, and Regula | PIC for ICT Web Revamp | Developed AI Agent using n&n to automate document verification processes",
   },
   {
     company: "PT Freeport Indonesia",

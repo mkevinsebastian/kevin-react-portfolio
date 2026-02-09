@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react'; 
 import './styles.css';
 
 import Navbar from './components/Navbar';
@@ -16,6 +17,32 @@ import CourseList from './components/CourseList';
 import Footer from './components/Footer';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const handleLoad = () => {
+      setTimeout(() => {
+        setLoading(false);
+      }, 1000);
+    };
+
+    if (document.readyState === 'complete') {
+      handleLoad();
+    } else {
+      window.addEventListener('load', handleLoad);
+      return () => window.removeEventListener('load', handleLoad);
+    }
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="preloader">
+        <div className="loader"></div>
+        <p>Loading Kevin Portfolio..</p>
+      </div>
+    );
+  }
+
   return (
     <>
       <ParticlesBackground />
