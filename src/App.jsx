@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'; 
+import './App.css';
 import './styles.css';
 
 import Navbar from './components/Navbar';
@@ -21,11 +22,8 @@ function App() {
 
   useEffect(() => {
     const handleLoad = () => {
-      setTimeout(() => {
-        setLoading(false);
-      }, 1000);
+      setTimeout(() => setLoading(false), 1000);
     };
-
     if (document.readyState === 'complete') {
       handleLoad();
     } else {
@@ -43,53 +41,31 @@ function App() {
     );
   }
 
+  // App.js
+
   return (
-    <>
-      <ParticlesBackground />
+    <div className="relative min-h-screen w-full bg-[#0f172a]">
+      <ParticlesBackground /> 
       <Navbar />
       
-      {/* This is our new main container */}
-      <div className="container mx-auto px-6 py-12 md:py-16">
-        
+      {/* Tambahkan padding-top (pt-20) di sini agar konten tidak tertutup Navbar */}
+      <main className="container mx-auto px-4 md:px-6 pt-20 md:pt-24">
         <Header />
         
-        <FadeInOnScroll>
-          <About />
-        </FadeInOnScroll>
-
-        <FadeInOnScroll>
-          <ProjectList />
-        </FadeInOnScroll>
-
-        <FadeInOnScroll>
-          <Resume />
-        </FadeInOnScroll>
-
-        <FadeInOnScroll>
-          <Skills />
-        </FadeInOnScroll>
-
-        <FadeInOnScroll>
-          <Education />
-        </FadeInOnScroll>
-
-        <FadeInOnScroll>
-          <CertificateList />
-        </FadeInOnScroll>
-
-        <FadeInOnScroll>
-          <RecommendationList />
-        </FadeInOnScroll>
-
-        <FadeInOnScroll>
-          <CourseList />
-        </FadeInOnScroll>
-
+        <FadeInOnScroll><About /></FadeInOnScroll>
+        <FadeInOnScroll><ProjectList /></FadeInOnScroll>
+        <FadeInOnScroll><Resume /></FadeInOnScroll>
+        <FadeInOnScroll><Skills /></FadeInOnScroll>
+        <FadeInOnScroll><Education /></FadeInOnScroll>
+        <FadeInOnScroll><CertificateList /></FadeInOnScroll>
+        <FadeInOnScroll><RecommendationList /></FadeInOnScroll>
+        <FadeInOnScroll><CourseList /></FadeInOnScroll>
+        
         <Footer />
-      </div>
+      </main>
 
       <BackToTopButton />
-    </>
+    </div>
   );
 }
 
