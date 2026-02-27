@@ -13,6 +13,7 @@ export const courses = [
       "Secure your Cloud Data", "Introduction to Software Engineering", "Introduction to Cloud Computing", "Introduction to HTML, CSS, & JavaScript",
       "Getting Started with Git and GitHub", "Introduction to Scrum Master Profession", "Information Technology (IT) Fundamentals for Everyone",
       "Introduction to DevOps", "Introduction to Agile Development and Scrum", "Working as a Scrum Master", "Scrum Master Capstone",
+      "Introduction to Artificial Intelligence (AI)", "Generative AI: Introduction and Applications",
     ],
   },
   {
