@@ -1,6 +1,6 @@
 // Image paths are from the 'public' folder
 export const certificates = [
-  { imgSrc: "Generative AI Elevate your Software Development Career_001.jpg", alt: "Coursera", title: "Generative AI: Elevate your Software Development Career", date: "March 2026" },
+  { imgSrc: "Generative AI Elevate your Software Development Career_001.png", alt: "Coursera", title: "Generative AI: Elevate your Software Development Career", date: "March 2026" },
   { imgSrc: "Oracle AI Vector Search Certified Professional_page-0001.jpg", alt: "OCI", title: "Oracle AI Vector Search Certified Professional", date: "October 2025" },
   { imgSrc: "Oracle Redwood Application 2025 Certified Developer Associate_page-0001.jpg", alt: "OCI", title: "Oracle Redwood Application 2025 Certified Developer Associate", date: "October 2025" },
   { imgSrc: "Oracle Autonomous Database Cloud 2025 Certified Professional_page-0001.jpg", alt: "OCI", title: "Oracle Autonomous Database Cloud 2025 Certified Professional", date: "October 2025" },
