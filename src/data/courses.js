@@ -14,6 +14,7 @@ export const courses = [
       "Getting Started with Git and GitHub", "Introduction to Scrum Master Profession", "Information Technology (IT) Fundamentals for Everyone",
       "Introduction to DevOps", "Introduction to Agile Development and Scrum", "Working as a Scrum Master", "Scrum Master Capstone",
       "Introduction to Artificial Intelligence (AI)", "Generative AI: Introduction and Applications",
+      "Generative AI: Elevate your Software Development Career",
     ],
   },
   {
