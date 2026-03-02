@@ -15,6 +15,8 @@ export const courses = [
       "Introduction to DevOps", "Introduction to Agile Development and Scrum", "Working as a Scrum Master", "Scrum Master Capstone",
       "Introduction to Artificial Intelligence (AI)", "Generative AI: Introduction and Applications",
       "Generative AI: Elevate your Software Development Career",
+      "Introduction to Computers and Operating Systems and Security", "Introduction to Networking and Cloud Computing", "Cybersecurity Threat Vectors and Mitigation",
+      "Cybersecurity Identity and Access Solutions using Azure AD", "Cybersecurity Solutions and Microsoft Defender"
     ],
   },
   {
