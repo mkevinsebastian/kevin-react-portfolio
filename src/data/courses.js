@@ -16,6 +16,7 @@ export const courses = [
       "Introduction to Artificial Intelligence (AI)", "Generative AI: Introduction and Applications",
       "Generative AI: Elevate your Software Development Career",
       "Introduction to Computers and Operating Systems and Security", "Introduction to Networking and Cloud Computing", "Cybersecurity Threat Vectors and Mitigation",
+      "Python for Data Science, AI & Development IBM",
       "Generative AI: Prompt Engineering Basics",
       "Cybersecurity Identity and Access Solutions using Azure AD", "Cybersecurity Solutions and Microsoft Defender", "Cybersecurity Tools and Technologies",
       "Cybersecurity Management and Compliance", "Advanced Cybersecurity Concepts and Capstone Project", "Microsoft SC-900 Exam Preparation and Practice"
