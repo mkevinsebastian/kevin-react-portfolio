@@ -19,7 +19,11 @@ export const courses = [
       "Python for Data Science, AI & Development IBM",
       "Generative AI: Prompt Engineering Basics",
       "Cybersecurity Identity and Access Solutions using Azure AD", "Cybersecurity Solutions and Microsoft Defender", "Cybersecurity Tools and Technologies",
-      "Cybersecurity Management and Compliance", "Advanced Cybersecurity Concepts and Capstone Project", "Microsoft SC-900 Exam Preparation and Practice"
+      "Cybersecurity Management and Compliance", "Advanced Cybersecurity Concepts and Capstone Project", "Microsoft SC-900 Exam Preparation and Practice",
+      "AI Fundamentals and the Cloud", "Getting Started with AWS Generative AI for Developers", "Getting Started with Azure Generative AI for Developers", "Getting Started with Google Cloud Generative AI for Developers",
+      "Getting Started with AWS Generative AI for Developers", "Generative AI Applications with Amazon Bedrock", "Amazon Bedrock Customization, Optimization & Automation",
+      "Intro to Snowflake for Devs, Data Scientists, Data Engineers", "Advanced Data Engineering with Snowflake",
+      "Introduction to Modern Data Engineering with Snowflake",
     ],
   },
   {
