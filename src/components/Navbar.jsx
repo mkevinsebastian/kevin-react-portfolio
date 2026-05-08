@@ -76,7 +76,7 @@ function Navbar() {
         <div className={`
           fixed inset-0 w-full h-screen bg-[#09090b]/95 backdrop-blur-2xl flex flex-col items-center justify-center
           transition-all duration-500 ease-in-out z-[10000]
-          ${click ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'}
+          ${click ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0 pointer-events-none'}
         `}>
           <ul className="flex flex-col items-center gap-8 list-none text-center">
             {navLinks.map((link, index) => (
@@ -98,9 +98,9 @@ function Navbar() {
 
           {/* Mobile Socials (Biar gak hambar) */}
           <div className={`mt-16 flex gap-6 text-gray-400 transition-all duration-1000 delay-500 transform ${click ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-            <a href="https://github.com/mkevinsebastian" target="_blank" rel="noopener noreferrer"><Github className="cursor-pointer hover:text-white hover:-translate-y-1 transition-all duration-300 w-8 h-8" /></a>
-            <a href="https://www.linkedin.com/in/kevin-sebastian-805503216/" target="_blank" rel="noopener noreferrer"><Linkedin className="cursor-pointer hover:text-[#0077b5] hover:-translate-y-1 transition-all duration-300 w-8 h-8" /></a>
-            <a href="mailto:kevin.m.sebastian@gmail.com"><Mail className="cursor-pointer hover:text-brand-yellow hover:-translate-y-1 transition-all duration-300 w-8 h-8" /></a>
+            <a href="https://github.com/mkevinsebastian" target="_blank" rel="noopener noreferrer"><Github size={32} className="cursor-pointer hover:text-white hover:-translate-y-1 transition-all duration-300" /></a>
+            <a href="https://www.linkedin.com/in/kevin-sebastian-805503216/" target="_blank" rel="noopener noreferrer"><Linkedin size={32} className="cursor-pointer hover:text-[#0077b5] hover:-translate-y-1 transition-all duration-300" /></a>
+            <a href="mailto:kevin.m.sebastian@gmail.com"><Mail size={32} className="cursor-pointer hover:text-brand-yellow hover:-translate-y-1 transition-all duration-300" /></a>
           </div>
         </div>
       </div>
