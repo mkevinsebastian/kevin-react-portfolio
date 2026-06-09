@@ -3,13 +3,15 @@ export const workExperience = [
     company: "PT InfraCom Technology",
     dates: "2025 - present",
     role: "Application Developer",
-    description: "Developed end-to-end applications using Mendix, ReactJS/NextJS (front-end), Astro, and FastAPI/Golang, including API integrations and UI/UX | Continuously updated on latest Software trends like Mendix, n&n, and Regula | PIC for ICT Web Revamp | Developed AI Agent using n&n to automate document verification processes",
+    description: "Developed end-to-end applications using Mendix, ReactJS/NextJS/VueJS (front-end), Astro, and FastAPI/Golang, including API integrations and UI/UX | Continuously updated on latest Software trends like Mendix, n&n, and Regula | PIC for ICT Web Revamp | Developed AI Chatbot using n8n for Company Profile & Products",
+    techStack: ["Mendix", "Outsystems","ReactJS", "NextJS", "VueJS", "FastAPI", "Golang", "n8n", "Regula", "Gitlab/Gitea", "Jenkins", "Utimaco", "OpenProject", "PostgreSQL", "Microsoft Azure"],
   },
   {
     company: "PT Freeport Indonesia",
     dates: "2024 - 2025",
     role: "Global Custom Application Support Intern",
     description: "Debugged and enhanced Freeport applications | Fixed longstanding issues and resolved tickets | Tested applications before deployment | Maintained .NET Core apps with SQL Server & Azure | Documented issue resolutions",
+    techStack: [".NET Core", "Microsoft SQL Server", "Microsoft Azure", "ServiceNow", "CosmosDB", "SAP", "Snowflakes", "Datadog"],
   },
   {
     company: "Student Advisory and Support Center Binus University",
