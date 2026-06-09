@@ -4,7 +4,7 @@ export const workExperience = [
     dates: "2025 - present",
     role: "Application Developer",
     description: "Developed end-to-end applications using Mendix, ReactJS/NextJS/VueJS (front-end), Astro, and FastAPI/Golang, including API integrations and UI/UX | Continuously updated on latest Software trends like Mendix, n&n, and Regula | PIC for ICT Web Revamp | Developed AI Chatbot using n8n for Company Profile & Products",
-    techStack: ["Mendix", "Outsystems","ReactJS", "NextJS", "VueJS", "FastAPI", "Golang", "n8n", "Regula", "Gitlab/Gitea", "Jenkins", "Utimaco", "OpenProject", "PostgreSQL", "Microsoft Azure"],
+    techStack: ["Mendix", "Outsystems","ReactJS", "NextJS", "VueJS", "FastAPI", "Golang", "n8n", "Regula", "Gitlab/Gitea", "Jenkins", "Utimaco", "OpenProject", "PostgreSQL", "Microsoft Azure", "Wireshark", "AWS Console"],
   },
   {
     company: "PT Freeport Indonesia",
