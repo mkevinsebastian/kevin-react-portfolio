@@ -1,6 +1,12 @@
 // Image paths are from the 'public' folder
 export const projects = [
   {
+    imgSrc: "Aplikasi Inventaris.png",
+    alt: "Aplikasi Inventaris",
+    title: "Inventory Management System - Website Application",
+    description: "Full-stack inventory management system using Golang, React, and PostgreSQL. Deployed locally using Docker, with production hosted on Vercel and connected to Supabase for the database.",
+  },
+  {
     imgSrc: "task_manager_react.png",
     alt: "React",
     title: "Task Tracker - Website Application",
@@ -10,8 +16,8 @@ export const projects = [
   {
     imgSrc: "Mendix Project.png",
     alt: "mendix",
-    title: "IcT Resource Forms - Website & Mobile Application",
-    description: "Developed an fullstack approval form by using Mendix Platform that can be accessed by Website or Mobile Devices",
+    title: "Resource Forms - Website & Mobile Application",
+    description: "Developed an fullstack approval form (Demo) by using Mendix Platform that can be accessed by Website or Mobile Devices",
     linkUrl: "https://projectmanagement196-sandbox.mxapps.io/index.html?profile=Responsive",
     linkLabel: "Website & Mobile Link",
   },
