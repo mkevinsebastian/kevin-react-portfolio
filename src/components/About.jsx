@@ -19,22 +19,17 @@ function About() {
           <h2 className="text-4xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-brand-cyan to-blue-500 inline-block">About Me</h2>
           <div className="space-y-6 text-lg text-gray-300 leading-relaxed font-light">
             <p>
-              Currently, as an <span className="font-semibold text-white">Application Developer at PT Infracom Technology</span>, I'm actively developing end-to-end
-              application solutions using the Mendix platform, crafting responsive user interfaces with <span className="font-medium text-brand-cyan">ReactJS/NextJS</span>, and
-              building robust back-end services with <span className="font-medium text-brand-yellow">FastAPI</span>.
+              Currently, as an <span className="font-semibold text-white">Application Developer at PT InfraCom Technology</span>, I build end-to-end applications 
+              using the <span className="font-medium text-blue-300">Mendix</span> platform, craft responsive user interfaces with <span className="font-medium text-brand-cyan">ReactJS, NextJS, and VueJS</span>, and 
+              develop robust back-end services and APIs utilizing <span className="font-medium text-brand-yellow">FastAPI and Golang</span>. I also maintain internal developer workspace environments and leverage tools like <span className="font-medium text-green-400">n8n</span> to build automated AI chatbots.
             </p>
             <p>
-              My foundational experience includes a valuable tenure as a <span className="font-semibold text-white">Global Custom Application Support Intern at PT Freeport Indonesia</span>. In this role, I was responsible for debugging and optimizing enterprise applications
-              across multiple layers, utilizing <span className="font-medium text-blue-400">.NET Core</span>, <span className="font-medium text-red-400">Microsoft SQL Server</span>, and <span className="font-medium text-blue-500">Microsoft Azure</span>. This experience
-              significantly enhanced my capacity to handle challenging system issues and ensure flawless application
-              performance.
+              My foundational experience includes a valuable tenure as a <span className="font-semibold text-white">Global Custom Application Support Intern at PT Freeport Indonesia</span>. In this role, I debugged and optimized enterprise applications 
+              across multiple layers utilizing <span className="font-medium text-purple-400">.NET Core</span>, <span className="font-medium text-red-400">Microsoft SQL Server</span>, and <span className="font-medium text-blue-500">Microsoft Azure</span>. This experience 
+              significantly enhanced my capacity to resolve challenging system issues and ensure flawless application performance.
             </p>
             <p>
-              Beyond my professional roles, I've deepened my expertise in cross-platform development by creating a
-              Flutter-based mobile application with Supabase for my thesis. I'm proficient in HTML, CSS, and have a
-              solid understanding of core programming concepts in C, Java, and Python. I am constantly keen to learn new
-              things and actively investigate cutting-edge technologies like React Native and continue to hone my skills
-              in data structures, algorithms, and object-oriented programming.
+              To stay at the forefront of the industry, I continuously pursue professional development. I have earned numerous certifications, particularly in <span className="font-semibold text-white">Oracle Cloud Infrastructure (OCI)</span>—including Developer, Architect, and Generative AI Professional credentials. Additionally, I hold certifications as a <span className="font-medium text-blue-300">Mendix Intermediate Developer</span> and <span className="font-medium text-blue-500">IBM IT Scrum Master</span>, demonstrating my commitment to both technical excellence and agile project management.
             </p>
           </div>
         </div>
