@@ -21,7 +21,7 @@ export const skills = [
   "CosmosDB",
   "Gitlab",
   "Jenkins",
-  "Utimaco",
+  "Utimaco HSM",
   "Regula",
   "OpenProject",
   "Object-Oriented Programming",
