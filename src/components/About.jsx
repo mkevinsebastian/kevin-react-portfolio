@@ -11,7 +11,7 @@ function About() {
         <div className="relative z-10">
           <h2 className="text-4xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-brand-yellow to-brand-purple inline-block">Hi!</h2>
           <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed font-light">
-            I'm a Master of Computer Science student at Bina Nusantara University with a strong passion for building scalable and
+            I'm a Master of Information Technology student at Bina Nusantara University with a strong passion for building scalable and
             high-performing applications. My expertise spans full-stack development, encompassing practical knowledge of
             database, front-end, and back-end technologies.
           </p>
